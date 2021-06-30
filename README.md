@@ -2,7 +2,7 @@
 
 Discord bot to find free games from the Reddit Subreddit r/FreeGameFindings
 
-—List of commands—
+### —List of commands—
 
 ``!setstream [channel name]``
 
