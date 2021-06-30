@@ -1,11 +1,16 @@
+from discord.ext.commands.core import command
 import api
 import discord
 from discord.ext import tasks, commands
 from discord.utils import get
+import json
 
-TOKEN = "ODU5MzUwMzMxODQ5NzAzNDQ1.YNraXQ.6sm0vRONwrNrZZ41mbsbz7tDZhE"
+f = open('config.json')
+data = json.load(f)
+TOKEN = data["token"]
+command_prefix = data["prefix"]
 #client = discord.Client()
-client = commands.Bot(command_prefix = '!')
+client = commands.Bot(command_prefix = command_prefix)
 
 @client.event
 async def on_ready():
