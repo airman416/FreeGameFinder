@@ -30,11 +30,11 @@ Shows the games that have become available in amount of hours inputted (an integ
 
 ## Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/raksdewji/free-games-discord-bot/issues). 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/airman416/FreeGameFinder/issues). 
 
 ## Show your support
 
-Give a if this project helped you!
+Give a star if this project helped you!
 
 ## License
 
